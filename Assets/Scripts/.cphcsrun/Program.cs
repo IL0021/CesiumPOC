@@ -92,10 +92,6 @@ public class Marker : MonoBehaviour
         {
             DecreaseScale();
         });
-        moveButton.onClick.AddListener(() =>
-        {
-            MoveMarker();
-        });
     }
 
 
@@ -121,7 +117,6 @@ public class Marker : MonoBehaviour
         //todo : if unlocked, show other buttons
         teamButton.gameObject.SetActive(!isLocked);
         scaleButton.gameObject.SetActive(!isLocked);
-        moveButton.gameObject.SetActive(!isLocked);
         if (isLocked == true && scalePanel.activeSelf)
         {
             scalePanel.SetActive(false);
@@ -158,25 +153,8 @@ public class Marker : MonoBehaviour
     private void MoveMarker()
     {
         // fade object
-        transform.GetChildWithName("Model").gameObject.SetLayerRecursively(LayerMask.NameToLayer("MoveMode"));
-
-        RaySpawner.Instance.SetObjectToSpawn(transform.GetChildWithName("Model").GetChild(0).gameObject);
-        
         // show ray
-        RaySpawner.Instance.EnableRay();
-
-        RaySpawner.Instance.OnObjectSpawned += () =>
-        {
-            // remove from globe manager
-            GlobeManager.Instance.spawnedMarkers.Remove(this);
-            // destroy this marker object
-            Destroy(this.gameObject);
-        };
-    }
-
-    private void OnDestroy()
-    {
-        RaySpawner.Instance.OnObjectSpawned = null;
+        // on click should move objec
     }
 
 }

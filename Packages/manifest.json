@@ -55,13 +55,6 @@
       "scopes": [
         "com.cesium.unity"
       ]
-    },
-    {
-      "name": "CloudSmith",
-      "url": "https://npm.cloudsmith.io/workspace-for-arpit/il-unity-packages",
-      "scopes": [
-        "com.innovatelabs"
-      ]
     }
   ]
 }

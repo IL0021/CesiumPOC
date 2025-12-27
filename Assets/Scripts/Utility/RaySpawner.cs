@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using CesiumForUnity;
 using Unity.XR.CoreUtils;
@@ -25,6 +26,8 @@ public class RaySpawner : MonoBehaviour
 
     public Transform CesiumGlobe;
     public GameObject MarkerPrefab;
+
+    public Action OnObjectSpawned;
 
     void Awake()
     {
@@ -87,7 +90,8 @@ public class RaySpawner : MonoBehaviour
 
             // 4. Move to hit point + lift it up along the normal
             markerObj.transform.position = hit.point + (hit.normal * liftAmount);
- 
+
+            OnObjectSpawned?.Invoke();
             yield return new WaitForSeconds(0.2f);
  
             modelTransform.gameObject.SetLayerRecursively(LayerMask.NameToLayer("BlueTeam"));

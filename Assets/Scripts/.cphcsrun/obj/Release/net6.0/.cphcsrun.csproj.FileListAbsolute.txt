@@ -1,0 +1,15 @@
+d:\WORK_STUFF\CesiumPOC\Assets\Scripts\.cphcsrun\obj\Release\net6.0\.cphcsrun.csproj.AssemblyReference.cache
+d:\WORK_STUFF\CesiumPOC\Assets\Scripts\.cphcsrun\obj\Release\net6.0\.cphcsrun.GeneratedMSBuildEditorConfig.editorconfig
+d:\WORK_STUFF\CesiumPOC\Assets\Scripts\.cphcsrun\obj\Release\net6.0\.cphcsrun.AssemblyInfoInputs.cache
+d:\WORK_STUFF\CesiumPOC\Assets\Scripts\.cphcsrun\obj\Release\net6.0\.cphcsrun.AssemblyInfo.cs
+d:\WORK_STUFF\CesiumPOC\Assets\Scripts\.cphcsrun\obj\Release\net6.0\.cphcsrun.csproj.CoreCompileInputs.cache
+d:\WORK_STUFF\CesiumPOC\Assets\Scripts\.cphcsrun\obj\Release\net6.0\.cphcsrun.dll
+d:\WORK_STUFF\CesiumPOC\Assets\Scripts\.cphcsrun\obj\Release\net6.0\.cphcsrun.pdb
+d:\WORK_STUFF\CesiumPOC\Assets\Scripts\Marker_bin\.cphcsrun.exe
+d:\WORK_STUFF\CesiumPOC\Assets\Scripts\Marker_bin\.cphcsrun.deps.json
+d:\WORK_STUFF\CesiumPOC\Assets\Scripts\Marker_bin\.cphcsrun.runtimeconfig.json
+d:\WORK_STUFF\CesiumPOC\Assets\Scripts\Marker_bin\.cphcsrun.dll
+d:\WORK_STUFF\CesiumPOC\Assets\Scripts\Marker_bin\.cphcsrun.pdb
+d:\WORK_STUFF\CesiumPOC\Assets\Scripts\.cphcsrun\obj\Release\net6.0\refint\.cphcsrun.dll
+d:\WORK_STUFF\CesiumPOC\Assets\Scripts\.cphcsrun\obj\Release\net6.0\.cphcsrun.genruntimeconfig.cache
+d:\WORK_STUFF\CesiumPOC\Assets\Scripts\.cphcsrun\obj\Release\net6.0\ref\.cphcsrun.dll
